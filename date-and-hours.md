@@ -9,3 +9,9 @@
 <br>later.getDay() // => 5: dia da semana. 0 é domingo, 5 é sexta-feira.
 <br>later.getHours() // => 17: 5 da tarde, hora local
 <br>later.getUTCHours() // Horas em UTC; depende do fuso horário
+<br>later.toString() // => "Sexta-feira, 01 de janeiro de 2010, 17:10:30 GMT-0800
+// (PST)"
+<br>later.toUTCString() // => "Sábado, 02 de janeiro de 2010, 01:10:30 GMT"
+<br>later.toLocaleDateString() // => "01/01/2010"
+<br>later.toLocaleTimeString() // => "05:10:30 PM"
+<br>later.toISOString() // => "2010-01-02T01:10:30.000Z"; somente ES5
